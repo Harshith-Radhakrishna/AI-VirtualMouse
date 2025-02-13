@@ -1,0 +1,46 @@
+How to use :
+
+ Using Hand Gestures
+
+ General Controls
+- Fist Gesture:  
+  - Action: Picks up or drags an item on the screen.  
+  - How to Use: Move your hand into a fist position to "grab" an object, and release it to "drop."
+  
+- Victory Gesture ("V"):  
+  - Action: Moves the mouse cursor.  
+  - How to Use: Extend your index and middle fingers while keeping others closed to control the cursor.
+
+- Middle Finger Gesture:  
+  - Action: Left-clicks on the screen.  
+  - How to Use: Perform the middle finger gesture near the target and the system will click for you.
+
+- Index Finger Gesture:  
+  - Action: Right-clicks on the screen.  
+  - How to Use: Point with your index finger to perform a right-click.
+
+- Two-Finger Closed Gesture:  
+  - Action: Double-clicks on the screen.  
+  - How to Use: Bring your index and middle fingers close together.
+
+ Brightness and Volume Controls
+- Pinch Gesture (Major/Minor):  
+  - Action: Adjusts brightness or volume based on the location on the screen.  
+  - How to Use:  
+    - Left side of the screen:  
+      - Top half: Increase brightness.  
+      - Bottom half: Decrease brightness.  
+    - Right side of the screen:  
+      - Top half: Increase volume.  
+      - Bottom half: Decrease volume.
+
+---
+
+ Additional Features
+
+1. Pickup and Drop Coordinates:
+   - When you pick up an item using the Fist Gesture, the coordinates are stored as pickup coordinates.
+   - When you drop the item, the system calculates the distance between pickup and drop points and displays it in an alert.
+
+2. File or Window Name Announcement:
+   - When picking up or dropping an item, the system announces the file name or active window title using text-to-speech.
